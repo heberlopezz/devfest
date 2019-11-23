@@ -86,14 +86,6 @@ svg#rocket {
   top: -24px;
 }
 
-svg#rocket-smoke {
-  height: calc(100vh - 110px);
-  position: absolute;
-  top: 10px;
-  right: 180px;
-  z-index: -10;
-}
-
 a,
 a:visited,
 a:hover {
@@ -196,15 +188,6 @@ footer a {
   margin-right: 4px;
 }
 
-svg#clouds {
-  position: fixed;
-  bottom: -160px;
-  left: -230px;
-  z-index: -10;
-  width: 1920px;
-}
-
-
 /* Responsive Styles */
 @media screen and (max-width: 767px) {
 
@@ -220,17 +203,5 @@ svg#clouds {
 
   .card.highlight-card span {
     margin-left: 72px;
-  }
-
-  svg#rocket-smoke {
-    right: 120px;
-    transform: rotate(-5deg);
-  }
-}
-
-@media screen and (max-width: 575px) {
-  svg#rocket-smoke {
-    display: none;
-    visibility: hidden;
   }
 }
