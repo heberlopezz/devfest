@@ -1,0 +1,14 @@
+$height-header: 60px;
+
+app-header {
+  position: absolute;
+  height: $height-header;
+  width: 100%;
+  top: 0;
+}
+
+.content {
+  overflow: auto;
+  height: calc(100vh - #{$height-header});
+  margin-top: $height-header;
+}
